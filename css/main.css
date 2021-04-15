@@ -123,3 +123,9 @@ background-color: #364147;
     width:575px;
     margin-top: 10px;
 }
+
+.nav-list li a{
+font: 16px uppercase;
+font-weight: 700;
+letter-spacing: 0.2px;
+}
