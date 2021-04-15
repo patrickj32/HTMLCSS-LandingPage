@@ -125,7 +125,8 @@ background-color: #364147;
 }
 
 .nav-list li a{
-font: 16px uppercase;
+font-size: 16px;
+text-transform: uppercase;
 font-weight: 700;
 letter-spacing: 0.2px;
 }
