@@ -202,7 +202,7 @@ line-height:1;
 text-align:center;
 }
 
-.banner-text:last-child{
+.banner-text > div:last-child{
 
     font-size: 16px;
     font-weight: 400;
@@ -225,4 +225,18 @@ text-align:center;
     padding: 30px 0;
     text-transform:uppercase;
     text-align: center;   
+}
+
+.category-text > div{
+
+    font-size:16px;
+    font-weight:200;
+    color:#faa541;  
+}
+
+.category-text h3{
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
 }
