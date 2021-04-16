@@ -244,7 +244,7 @@ text-align:center;
 .full-banner{
 
     padding: 0 15px;
-    margin:50px 0;
+    margin:50px 0px;
     position: relative;
 }
 
@@ -252,7 +252,10 @@ text-align:center;
     content:"";
     position: absolute;
     border:1px solid #ffffff;
-    border:30px 30px 50px 50px ;
+    top:30px; 
+    bottom:30px; 
+    left:50px; 
+    right: 50px;
     z-index: 1;
 }
 
