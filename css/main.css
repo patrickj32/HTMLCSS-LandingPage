@@ -157,7 +157,7 @@ font-size: 14px;
 }
 
 .hero{
-    background-image: url(/images/hero.jpg) ;
+    background-image: url('../img/hero.jpg') ;
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -174,8 +174,16 @@ font-size: 14px;
     color: #faa541;
 }
 
-.hero h1 h2{
+.hero h1, h2{
     font-size: 63px;
     font-weight: 700px;
     line-height: 0.9; 
+}
+
+.hero p{
+
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 0 0 10px 0;
 }
